@@ -56,7 +56,7 @@ export default function SpaceScene({ skillStars = false }) {
       <Planet position={[4.2, -1.8, -4]} color="#ec4899" size={1.2} speed={0.18} />
       <Planet position={[2.5, 2.6, -6]} color="#a3e635" size={0.6} speed={0.3} />
       <Float speed={2} floatIntensity={3}>
-        <Text font="/Inter_Bold.json" fontSize={1.1} color="#e6edf3" anchorX="center" anchorY="middle" position={[0, 0, 0]}>
+        <Text fontSize={1.1} color="#e6edf3" anchorX="center" anchorY="middle" position={[0, 0, 0]}>
           NAVI
         </Text>
       </Float>
