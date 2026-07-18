@@ -11,6 +11,7 @@ import Projects from './sections/Projects.jsx'
 import Experience from './sections/Experience.jsx'
 import Skills from './sections/Skills.jsx'
 import Contact from './sections/Contact.jsx'
+import Extras from './sections/Extras.jsx'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -86,6 +87,7 @@ export default function App() {
           <Experience />
           <Skills />
           <Contact />
+          <Extras />
         </main>
       )}
     </div>
